@@ -3,7 +3,7 @@ import math
 
 def calc_product_of_triplet(sum_elems):
     
-    for a in range(1, sum_elems):
+    for a in range(3, sum_elems):
         for b in range(a + 1, sum_elems):
             c = math.sqrt(a**2 + b**2)
             if c % 1 == 0:
